@@ -1,16 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .hero, .header, .footer {
     background-color: #1F2937;
     display: flex;
 }
 
-.header .logo {
-    color: #F9FAF8;
-    font-size: 24px;
-}
-
-.header {
+.header-inner {
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 300px;
+    flex: 1;
+}
+
+.header-inner .logo {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .nav-bar ul {
@@ -28,29 +36,41 @@
     list-style: none;
 }
 
-.hero {
+.hero-inner {
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 100px 300px;
+    flex: 1;
 }
 
 .sign-up-text {
     display: flex;
     flex-direction: column;
+    width: 400px;
+    margin-bottom: 16px;
 }
 
 .sign-up h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0 0 16px 0;
+    padding: 0;
 }
 
 .sign-up p {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 button {
     background-color: #3882F6;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 20px;
 }
 
 button a {

@@ -78,7 +78,7 @@ button {
     background-color: #3882F6;
     border-radius: 5px;
     border-style: none;
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 button a {
@@ -150,4 +150,35 @@ button a {
 
 .quote-credit {
     align-self: flex-end;
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.bottom-container {
+    display: flex;
+    width: 950px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 150px; */
+    padding: 20px 100px;
+}
+
+.action-text h3, .action-text p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.bottom-button {
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
 }

@@ -86,3 +86,36 @@ button a {
     align-items: center;
     justify-content: center;
 }
+
+.info-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-groups {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 150px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.info-section-1, .info-section-2, .info-section-3, .info-section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image-1, .info-image-2, .info-image-3, .info-image-4 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.info-text-1, .info-text-2, .info-text-3, .info-text-4 {
+    width: 150px;
+    text-align: center;
+}

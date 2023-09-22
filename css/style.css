@@ -67,7 +67,7 @@ body {
     padding: 0;
 }
 
-.sign-up p {
+.sign-up p, .footer {
     color: #E5E7EB;
     font-size: 18px;
     margin: 0;
@@ -181,4 +181,11 @@ button a {
 .bottom-button {
     border: 2px solid #E5E7EB;
     border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }

@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,12 +9,17 @@ body {
     display: flex;
 }
 
+.header {
+    flex-wrap: wrap;
+}
+
 .header-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 300px;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .header-inner .logo {
@@ -24,6 +30,7 @@ body {
 .nav-bar ul {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .header .nav-bar a {
@@ -42,6 +49,7 @@ body {
     justify-content: space-between;
     padding: 100px 300px;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .sign-up-text {
@@ -87,6 +95,10 @@ button a {
     justify-content: center;
 }
 
+.info-section {
+    padding: 0 560px;
+}
+
 .info-section h2 {
     text-align: center;
     font-size: 36px;
@@ -97,7 +109,6 @@ button a {
 .info-groups {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 150px;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
@@ -118,4 +129,25 @@ button a {
 .info-text-1, .info-text-2, .info-text-3, .info-text-4 {
     width: 150px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 0 560px;
+    flex-wrap: wrap;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-credit {
+    align-self: flex-end;
 }
